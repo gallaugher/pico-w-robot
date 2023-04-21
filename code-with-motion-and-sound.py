@@ -71,9 +71,9 @@ def message(client, topic, message):
         elif message == "backward":
             move_servo(-1.0, -1.0)
         elif message == "left":
-            move_servo(-1.0, 1.0)
+            move_servo(-0.5, 0.5)
         elif message == "right":
-            move_servo(1.0, -1.0)
+            move_servo(0.5, -0.5)
 
 # Connect to WiFi
 print(f"Connecting to WiFi")
